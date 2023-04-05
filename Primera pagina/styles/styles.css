@@ -38,41 +38,6 @@ header{
     position: relative;
 }
 
-#hero #computadora{
-    display: inline-block;
-    width: 100%;
-}
-
-#hero .informacion-contenedor{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#hero .informacion-contenedor #foto{
-    width: 150px;
-}
-
-#hero .informacion-contenedor #foto img{
-    border-radius: 20%;
-}
-
-#hero .informacion-contenedor{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    color: #ffffff;
-    padding: 0px 50px;
-}
-
-#hero .informacion-contenedor .informacion span{
-    color: burlywood;
-    margin-bottom: 70px;
-    display: inline-block;
-}
-
 #hero .informacion-contenedor{
     position: absolute;
     top: 50%;
@@ -81,7 +46,32 @@ header{
     display: flex;
     width: 100%;
     color: #ffff;
-    padding: 0 50px;
+    padding: 0 350px;
+}
+
+#hero #computadora{
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor #foto{
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto img{
+    border-radius: 100%;
+}
+
+#hero .informacion-contenedor .informacion{
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#hero .informacion-contenedor .informacion span{
+    color: burlywood;
+    margin-bottom: 70px;
+    display: inline-block;
 }
 
 /*Estilos del main*/
